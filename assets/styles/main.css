@@ -1,0 +1,10 @@
+@import '~bootstrap/scss/bootstrap';
+
+body {
+  background: $black;
+
+}
+
+h1 {
+  color: #FF2734;
+}
