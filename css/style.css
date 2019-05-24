@@ -30,8 +30,10 @@ body {
   font-size: 15px;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
-  color: #777777;
-  background: url(../img/carolina-pimenta-626402-unsplash.jpg) no-repeat cover 100% 100%;
+  color: #fff;
+  background: url("../img/timj-310824-unsplash.jpg") fixed 100% 100%;
+  background-size: cover;
+  border: 2px solid black;
 }
 
 h1,
@@ -42,7 +44,7 @@ h5,
 h6 {
   font-family: "Rubik", sans-serif;
   font-weight: 500;
-  color: #000000; }
+  color: #fff; }
 
 .list {
   list-style: none;
@@ -354,7 +356,7 @@ button:focus {
       padding-top: 197px; }
       @media (max-width: 1480px) {
         .home_banner_area .banner_inner .home_right_img img {
-          max-width: 100%;
+          max-width: 60%;
           height: auto; } }
       @media (max-width: 991px) {
         .home_banner_area .banner_inner .home_right_img {
@@ -705,7 +707,8 @@ button:focus {
   font-weight: 600; }
 
 .about-generic-area {
-  background: #fff; }
+  background: #fff;
+ }
 
 .about-generic-area p {
   margin-bottom: 20px; }
@@ -1705,7 +1708,8 @@ h6 {
 /* Start About Us Area css
 ============================================================================================ */
 .about_area {
-  position: relative; }
+  position: relative;
+ }
   .about_area .main_title {
     margin-bottom: 0px; }
     .about_area .main_title p {
@@ -1730,7 +1734,8 @@ h6 {
 /* Start Barand Area css
 ============================================================================================ */
 .brand_area {
-  padding-bottom: 170px; }
+  padding-bottom: 170px;
+  filter:contrast(1); }
   @media (max-width: 1199px) {
     .brand_area {
       padding-bottom: 80px; } }
@@ -1922,7 +1927,7 @@ h6 {
       font-size: 20px;
       margin-bottom: 0px; }
       .portfolio_box .short_info h4 a {
-        color: #000000; }
+        color: #fff; }
 
 .single_portfolio {
   position: relative; }
