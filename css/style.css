@@ -217,15 +217,14 @@ button:focus {
 ============================================================================================ */
 .home_banner_area {
   z-index: 1;
-  background: url(../img/banner/home-banner.png) no-repeat top center;
   background-position: center;
   background-size: cover; }
     .home_banner_area .banner_inner .home_right_img {
       padding-top: 197px; }
       @media (max-width: 1480px) {
         .home_banner_area .banner_inner .home_right_img img {
-          max-width: 60%;
-          border-radius: 150px; } }
+          max-width: 50%;
+          border-radius: 10px; } }
     .home_banner_area .banner_inner .col-lg-7 {
       vertical-align: middle;
       align-self: center; }
@@ -356,7 +355,7 @@ button:focus {
 
 /* End About Us Area css
 ============================================================================================ */
-/* Start Barand Area css
+/* Start Brand Area css
 ============================================================================================ */
 .brand_area {
   padding-bottom: 170px;
@@ -423,7 +422,7 @@ button:focus {
   .single-brand-item .d-table-cell {
     vertical-align: middle; }
   .single-brand-item img {
-    max-width: 80px;
+    max-width: 100px;
     margin: 0 auto;
     -webkit-transition: all 0.4s ease 0s;
     -moz-transition: all 0.4s ease 0s;
@@ -459,7 +458,6 @@ button:focus {
     position: absolute;
     top: -25px;
     left: -50px;
-    background: url(../img/client-info-bg.png) no-repeat;
     height: 175px;
     width: 175px; }
     @media (max-width: 575px) {
